@@ -1,0 +1,28 @@
+<stack>
+  <name>flann</name>
+  <version>1.7.1</version>
+  <description>FLANN is a library for performing fast approximate
+    nearest neighbor searches in high dimensional spaces.
+    It contains a collection of algorithms we found to work
+    best for nearest neighbor search and a system for
+    automatically choosing the best algorithm and optimum
+    parameters depending on the dataset.</description>
+  <author email="mariusm@cs.ubc.ca">Marius Muja</author>
+  <maintainer email="vrabaud@willowgarage.com">Vincent Rabaud</maintainer>
+  <license>BSD</license>
+  <copyright>Willow Garage</copyright>
+  
+  <build_depends>catkin</build_depends>
+  <build_depends>cmake</build_depends>
+  <build_depends>tbb</build_depends>
+  <build_depends>gtest</build_depends>
+  <build_depends>python</build_depends>
+  <build_depends>python-numpy</build_depends>
+  <build_depends>boost</build_depends>
+
+  <depends>tbb</depends>
+  <depends>gtest</depends>
+  <depends>python</depends>
+  <depends>python-numpy</depends>
+  <depends>boost</depends>
+</stack>
